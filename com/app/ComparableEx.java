@@ -14,10 +14,17 @@ public class ComparableEx {
 		sc.add(new Student(30,"gopal","jadav",20));
 		sc.add(new Student(4,"aman","rahut",25));
 		
-	    Collections.sort(sc);
-	    for(Student s:sc) {
-	    	System.out.println(s.getId()+" : "+s.getName());
-	    }
+//	    Collections.sort(sc);
+//	    for(Student s:sc) {
+//	    	System.out.println(s.getId()+" : "+s.getName());
+//	    }
+//	    1 : rahul
+//	    4 : aman
+//	    29 : roshan
+//	    30 : gopal
+		
+		Collections.sort(sc);
+		sc.forEach(System.out::println);
 	}
 
 }

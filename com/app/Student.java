@@ -6,10 +6,17 @@ package com.app;
 	private String lastname;
 	private int age;
 	
+//	@Override
+//	public int compareTo(Student a) {
+//		// TODO Auto-generated method stub
+//		return this.id-a.id;
+//	}
+//	
+	
 	@Override
 	public int compareTo(Student a) {
 		// TODO Auto-generated method stub
-		return this.id-a.id;
+		return this.age-a.age;
 	}
 	
 	public int getId() {
