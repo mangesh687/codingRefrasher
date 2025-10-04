@@ -25,6 +25,11 @@ public class ComparableEx {
 		
 		Collections.sort(sc);
 		sc.forEach(System.out::println);
+//		Student [id=30, name=gopal, lastname=jadav, age=20]
+//				Student [id=1, name=rahul, lastname=pawar, age=23]
+//				Student [id=4, name=aman, lastname=rahut, age=25]
+//				Student [id=29, name=roshan, lastname=gosawi, age=33]
+
 	}
 
 }
